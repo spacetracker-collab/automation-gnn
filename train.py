@@ -27,3 +27,7 @@ for epoch in range(200):
 
     if epoch % 20 == 0:
         print("Epoch:", epoch, "Loss:", loss.item())
+
+
+torch.save(model.state_dict(), "automation_gnn_model.pt")
+print("Model saved")
