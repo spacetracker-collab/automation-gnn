@@ -12,3 +12,10 @@ Edges represent communication or task dependencies.
 
 The model studies productivity emergence in distributed
 automation networks.
+
+0 = Human
+1 = RPA bot
+2 = AI model
+3 = Agentic AI
+4 = Cloud service
+
