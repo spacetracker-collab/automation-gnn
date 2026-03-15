@@ -24,10 +24,4 @@ with torch.no_grad():
 
 print(predictions)
 
-values = predictions.squeeze().numpy()
-
-plt.hist(values, bins=20)
-plt.title("Predicted Agent Productivity Distribution")
-plt.show()
-
 
