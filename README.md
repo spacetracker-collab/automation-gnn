@@ -19,3 +19,30 @@ automation networks.
 3 = Agentic AI
 4 = Cloud service
 
+
+| Node | Agent         | Predicted Productivity |
+| ---- | ------------- | ---------------------- |
+| 0    | Human         | 0.72                   |
+| 1    | RPA Bot       | 0.45                   |
+| 2    | AI Model      | 0.88                   |
+| 3    | Agentic AI    | 0.33                   |
+| 4    | Cloud Service | 0.60                   |
+
+
+In a real deployment the node features might represent:
+
+Feature	Meaning
+automation capability	RPA vs AI
+task complexity	workflow difficulty
+latency	response speed
+resource cost	compute usage
+human oversight	governance level
+
+The model predicts:
+
+process efficiency
+
+automation productivity
+
+economic output contribution
+
